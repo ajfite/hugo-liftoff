@@ -60,6 +60,7 @@ about_page_socials = true
 
 # Enable or disable individual social share icons in posts
 [social.share]
+  bluesky = true
   facebook = true
   linkedin = true
   twitter = true

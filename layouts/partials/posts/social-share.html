@@ -8,6 +8,12 @@
     <h2>Share</h2>
     <div class="social-links">
       <ul class="social-icons--share">
+        <!-- Bluesky -->
+        {{ if .Site.Params.social.share.bluesky }}
+        <a href="https://bsky.app/intent/compose?text={{ .Title }}%20{{ .Permalink }}" target="_blank" rel="noopener" aria-label="Share on Bluesky" class="social-btn bluesky">
+          <li>{{ partial "svg/bluesky.svg" }}</li>
+        </a>
+        {{ end }}
         <!-- Twitter -->
         {{ if .Site.Params.social.share.twitter }}
         <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&amp;text={{ .Title }}" target="_blank" rel="noopener" aria-label="Share on Twitter" class="social-btn twitter">
