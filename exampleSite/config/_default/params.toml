@@ -55,6 +55,8 @@ about_page_socials = true
   # linkedin = "username" # Comment out to disable
   # mastodon_server = "example.social" # include subdomains if relevant, scheme not needed (defaults to https)
   # mastodon_user = "username" # don't include preceding @
+  # bluesky_server = "example.com" # Defaults to bsky.app if not set, the current most popular viewer
+  # bluesky_user = "username.domain" # Be sure to include the fully qualified username  "username.example.com"
 
 # Enable or disable individual social share icons in posts
 [social.share]
