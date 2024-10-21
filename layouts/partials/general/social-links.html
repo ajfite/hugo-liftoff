@@ -1,6 +1,15 @@
 <!-- Social Share Button HTML -->
 <div class="social-links">
   <ul class="social-icons">
+    <!-- Bluesky -->
+    {{ if .Site.Params.social.links.bluesky_user }}
+    <li>
+      <a href="https://{{ with .Site.Params.social.links.bluesky_server }}{{ . }}{{ else }}bsky.app{{ end }}/profile/{{ with .Site.Params.social.links.bluesky_user }}{{ . }}{{ end }}" target="_blank" rel="noopener" aria-label="Visit Bluesky profile" class="social-btn bluesky">
+        {{ partial "svg/bluesky.svg" }}
+      </a>
+    </li>
+    {{ end }}
+    
     <!-- Twitter -->
     {{ with .Site.Params.social.links.twitter }}
     <li>
