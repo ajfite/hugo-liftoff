@@ -1,6 +1,6 @@
-# Hugo Liftoff
+# Hugo Liftoff (AJ's Remix)
 
-**Warning: I no longer have time to work on this theme for various reasons. It's unlikely I'll get to your issue and no additional features are planned, although the theme will remain available to the public. Feel free to fork it if you need to make extensive changes. I will consider merging simple bugfix pull requests. Apologies for any inconvenience this may cause. Please see [v3.4.3 release notes](https://github.com/wjh18/hugo-liftoff/releases/tag/v3.4.3) for further details.**
+Fork of the [original hugo-liftoff theme by wjh18s](https://github.com/wjh18/hugo-liftoff/).  Unsure if I'm going to release this theme in any official capacity but I am open to PRs, please open an issue associated with your PR.
 
 ## About
 
@@ -8,15 +8,13 @@ Hugo Liftoff is a minimal blog/portfolio theme with a focus on content creation 
 
 ## Documentation
 
-The full documentation is hosted on this repo's [Github Wiki](https://github.com/wjh18/hugo-liftoff/wiki).
+The full documentation is hosted on wjh18's repo [Github Wiki](https://github.com/wjh18/hugo-liftoff/wiki).
 
-Please open an issue if you find any mistakes in the docs or have suggestions for improvement.
+This fork currently does not have separate documentation, DO NOT OPEN ANY ISSUES ON THE wjh18 REPO IF YOU ARE USING THIS REPO.  Documentation on the original repo will not reflect the changes in this fork.
 
 ## Demo Site
 
-A working [demo of the theme](https://hugo-liftoff.netlify.app/) is available to the public for evaluation.
-
-The `exampleSite` content included with the theme, which you're free to copy into your own project, mirrors the content used in the demo. The idea behind this is to help you get started quickly and replicate any features you saw in the demo that you think could be useful in your own project.
+There is a [demo of the original theme](https://hugo-liftoff.netlify.app/) available.  There is currently no demo of this fork, I'll try setting that up soon(tm).
 
 ## Notable Features
 
@@ -55,7 +53,7 @@ Below are the current features of this theme. Features labeled *optional* or *fr
 
 ### Social
 
-* Native Twitter, Mastodon, Github, Stack Overflow, LinkedIn and email social links with SVG (optional)
+* Native Bluesky, Twitter, Mastodon, Github, Stack Overflow, LinkedIn and email social links with SVG (optional)
 * Enable or disable social links in footer, homepage hero, and about page (optional)
 * Enable or disable individual social links (optional)
 * Facebook, LinkedIn, Twitter, Reddit and email social share icons with SVG for posts (optional)
@@ -150,20 +148,21 @@ Below are the current features of this theme. Features labeled *optional* or *fr
 * Built-in shortcodes
 * And much more...Hugo has a lot to offer!
 
+## Changes Present in this fork
+
+* Bluesky support
+* Support for the most recent version of Hugo
+
 ## Planned Features
 
 The following features are planned for a future release.
 
-* Real-time site search
-* Image galleries for projects
-* i18n support
-* Additional advanced Google structured data schemas
-* Custom shortcodes for things like project lists
+* None currently planned, feel free to file PRs and open feature requests but no promises.
 
 ## Getting Help
 
-To submit a bug report, feature request, or usage questions, please open an [issue](https://github.com/wjh18/hugo-liftoff/issues) on Github using one of the issue templates.
+To submit a bug report, feature request, or usage questions, please open an [issue](https://github.com/ajfite/hugo-liftoff/issues) on Github using one of the issue templates.
 
 ## Contributing
 
-If you'd like to contribute to the project, fork it and submit a pull request with your changes using the [pull request template](https://github.com/wjh18/hugo-liftoff/blob/master/.github/pull_request_template.md). Please see the [Contribution Guidelines](https://github.com/wjh18/hugo-liftoff/blob/master/CONTRIBUTING.md) for more details.
+If you'd like to contribute to the project, fork it and submit a pull request with your changes using the [pull request template](https://github.com/ajfite/hugo-liftoff/blob/master/.github/pull_request_template.md). Please see the [Contribution Guidelines](https://github.com/ajfite/hugo-liftoff/blob/master/CONTRIBUTING.md) for more details.
